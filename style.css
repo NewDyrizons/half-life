@@ -1,0 +1,195 @@
+*{margin: 0;}
+body{background-color: black;}
+#banner{
+  background-image: url(source1/fondo.png);
+  background-size: cover;
+  height: 100vh;}
+header{
+  height: 60px;
+  background: #8C4E03;
+  display: FLEX;
+  margin: 0 ;
+  padding: 1px 21px;}
+.logo a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-family: ODIBEE SANS,cursive;}
+#menu{
+  margin-left: auto;}
+#menu ul li{
+  display: inline-block;
+  white-space: nowarp;}
+#menu ul li a{
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  line-height: 60px;
+  padding: 0 8px;
+  text-transform: uppercase;
+  transition: .2s;}
+#menu ul li a:hover{
+  background: #F28705;}
+#landing{
+  float: left;
+  margin: 15%;}
+#estreno{
+  border-radius: 10px;
+  margin: 0 0 10px 15px;}
+#land{ background-color:rgba(6, 7, 20, .7);
+border-radius: 40px; }
+h2{
+  background: rgba(6, 7, 20, .7);
+  text-decoration: none;
+  font-weight: 100;
+  border-radius: 10px;
+  line-height: 40px;
+  height: 40px;
+  width: 180px;
+  text-align: center;
+  font-family: odibee sans;
+  color: #DEA11F;
+  position: relative;
+  margin: 0 60px;}
+.form{
+  width: 100%;
+  text-align: center;
+  margin: 7px 0 7px 0;
+  background-color: rgba(6, 7, 20, .7);
+  height: 30px;
+  position: static;
+  align-items: center;
+  border: 20px;
+  border-radius: 5px;
+  color: white;}
+#enviar{
+  width: 305px;
+  background-color:#9d0208;
+  border-radius: 15px;
+  transition: .5s;}
+form #enviar:hover{
+  width: 305px;
+  height: 35px;
+  color: #DEA11F;
+  background-color:#9d0208;
+  border-radius: 15px;}
+form{
+  width: 300px;
+  height: 120px;
+  float: left;
+  margin: 15% 0 0 0;}
+#valve{
+ position: absolute;
+  height: 60px;
+ top: 100vh;
+ left: 83vw;}
+.al{
+	width: 100%;
+	height: 60px;
+	background-color: black;}
+#hl3{
+ height: 270px;
+ margin: 10px 15px 0 5px;
+ float: left;
+}
+#video{
+  float: left;
+  margin: 1% 0 0 0;
+}
+#op{
+ padding: 10px 15px 150px 15px;
+ display: block;
+ background-image: url(source1/bodyb.jpg);
+}
+h3{
+  text-align: center;
+  color: white;
+ font-family: coda caption;
+}
+p{
+ font-family: 'Baloo Tammudu 2', cursive;
+ line-height: 30px;
+ background-color:rgba(6, 7, 20, .7);
+ border-radius: 20px;
+ color: white;
+ padding: 20px 0;}
+#slider{
+  overflow: hidden;
+  width: 70%;
+  margin-left: 12.5%;}
+#slider figure{
+ 	position: relative;
+ 	width: 500%;
+ 	margin: 0;
+ 	left: 0;
+ 	animation: 30s slider infinite;}
+#slider figure img{
+ 	float: left;
+ 	width: 20%;
+ 	height: 150px;
+ }
+@keyframes slider{
+ 	0%{
+ 		left: 0;}
+  20%{
+   left: 0;}
+ 25%{
+   left:-100%;}
+ 45%{
+   left: -100%;}
+ 50%{
+   left:-200%;}
+ 70%{
+   left: -200%;}
+ 75%{
+   left: -300%}
+ 95%{
+   left: -300%}
+ 100%{
+   left: -400%}
+ }
+#dos{
+  width: 100%;
+  height: 120px;
+  background-color: black;}
+#cta{
+  background-size: cover;
+  height: 100vh;
+  float: left;
+  margin: 0 12.5vw 0 12.5vw;}
+#com{
+  width: 150px;
+  height: 50px;
+  background-color:#EF681A;
+  color: white;
+  font-size: 17px;
+  border-radius: 15px;
+  transition: .7s;
+  margin: 0 0 0 25%;}
+#com:hover{
+  width: 160px;
+  height: 55px;
+  color: white;
+  font-size: 20px;
+  font-style: none;
+  font-weight: 500;
+  background-color:#EF881A;
+  border-radius: 15px;
+}
+h4{
+  color:#DD8B53;
+  text-align: center;
+ font-family: raleway;
+ font-weight: 550;
+ font-size: 30px;}
+#gordon{
+ width: 48vw;
+ float: left;}
+ #cta form ul li{
+  color: white;
+  font-family: 'Baloo Tammudu 2', cursive;
+ line-height: 30px;
+ background-color:rgba(6, 7, 20, .7);}
